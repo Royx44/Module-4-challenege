@@ -1,0 +1,48 @@
+#quiz-container {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+  }
+  
+  #question {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #choices button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #submit-btn {
+    margin-top: 20px;
+  }
+  
+  #score-container {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #score-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #score-table th,
+  #score-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #score-table th {
+    background-color: blue;
+  }
+  
